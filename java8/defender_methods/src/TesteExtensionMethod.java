@@ -1,18 +1,18 @@
 import java.util.*;
 import java.lang.reflect.*;
 
-//	./bin/javac -d classes src/TesteExtensionMethod.java 
-//	./bin/java -cp src TesteExtensionMethod ????
+//	./bin/javac -d classes src/TesteDefenderMethod.java 
+//	./bin/java -cp src TesteDefenderMethod ????
 
 interface Filtro {
-	boolean filter(int a) default TesteExtensionMethod.setFilter;	
+	boolean filter(int a) default TesteDefenderMethod.setFilter;	
 }
 
 class DefaultFiltro implements Filtro {
 	//cadê a implementacao
 }
 
-public class TesteExtensionMethod {
+public class TesteDefenderMethod {
 
 	public static boolean setFilter(Filtro filtro, int a) {
 		System.out.println(filtro);

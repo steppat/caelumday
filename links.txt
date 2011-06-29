@@ -44,19 +44,8 @@ http://www.jcp.org/en/jsr/detail?id=337
 http://openjdk.java.net/projects/jigsaw/doc/draft-java-module-system-requirements-12
 http://www.jcp.org/en/jsr/detail?id=277
 http://blogs.oracle.com/abuckley/resource/JSR294AndModuleSystems.pdf
-
-Oracle has 20,000 Java developers working for the company, everything except the core database is written in Java,"
-
-
-Module 
 http://mreinhold.org/blog/module-system-requirements
-
-
-A última versão do Java EE saiu (http://www.sun.com/featured-articles/2009-1210/feature/index.jsp) final do ano 2009, então passou 
-
-web profile junto com o EJB 3 lite
-
-Tempo suficiente para o JCP começar a pensar no sucessor o Java EE 7 
+http://sellmic.com/blog/2009/06/11/classpath-hell-just-froze-over/
 
 
 http://blog.caelum.com.br/javaee-6-contexto-assincrono-das-servlets-para-o-ajax-push/
