@@ -10,27 +10,8 @@ http://www.theregister.co.uk/2011/03/23/oracle_ibm_together_on_java/
 http://blogs.oracle.com/projectkenai/entry/the_future_of_kenai_com
 http://java.dzone.com/articles/oracle-discontinue-javafx
 http://kohsuke.org/2011/05/04/oracle-proposes-to-move-hudson-to-eclipse/
-
-		http://www.oracle.com/us/corporate/press/393483(briga, depois pra eclipse foundation)
-		http://jenkins-ci.org/content/about-jenkins-ci 
-Oracle 
-	01/2010 - java.net + kenai 
-	04/2010 - Gosling sai da Oracle
-	09/2010 - JavaFXScript dead
-	12/2010 - Apache e Doug Lea sairam da JCP
-	08/2010 - Android fight 
-	05/2011 - Hudson para Eclipse Foundation
-	06/2011 - OpenOffice para Apache 
-
-
-	10/2010 - OpenJDK continues com IBM no braco
-	11/2010	- OpenJDK para MacOS
-	12/2010 - JCP Approves JSRs for Java SE 7, Java SE 8, Java EE 7
-	05/2011 - JCP.next e SouJava aprovado
-	06/2011 - OpenJDK como RI
-	05/2011 - JRockit para uso livre
-	07/2011 - Java 7 sai	
-	Glassfish AS Java application continues strong	
+http://www.oracle.com/us/corporate/press/393483(briga, depois pra eclipse foundation)
+http://jenkins-ci.org/content/about-jenkins-ci 
 
 Modular:
 http://mreinhold.org/blog/modular-java-platform
@@ -48,8 +29,9 @@ http://mreinhold.org/blog/module-system-requirements
 http://sellmic.com/blog/2009/06/11/classpath-hell-just-froze-over/
 
 
-http://blog.caelum.com.br/javaee-6-contexto-assincrono-das-servlets-para-o-ajax-push/
-Bean Validation (http://blog.caelum.com.br/java-ee-6-comecando-com-bean-validation/)
+Bean Validation 
+(http://blog.caelum.com.br/java-ee-6-comecando-com-bean-validation/)
+
 CDI (JSR 299)
 Servlets 3 (http://blog.caelum.com.br/java-ee6-comecando-com-as-servlets-3-0/)
 
@@ -58,11 +40,12 @@ http://jdk7.java.net/
 http://openjdk.java.net/projects/jdk7/features/
 http://mail.openjdk.java.net/pipermail/coin-dev/2009-March/001193.html
 
-	JSR 308: Annotations on Java Types
-	http://jcp.org/en/jsr/detail?id=308
+JSR 308: Annotations on Java Types
+http://jcp.org/en/jsr/detail?id=308
 
 
-Java EE 6 http://www.jcp.org/en/jsr/detail?id=316
+Java EE 6 
+http://www.jcp.org/en/jsr/detail?id=316
 
 Sobre Java EE 7 geral:
 http://www.infoq.com/news/2011/03/ee7_jsr
