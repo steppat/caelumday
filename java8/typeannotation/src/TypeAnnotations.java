@@ -4,7 +4,7 @@ import java.util.*;
 //http://types.cs.washington.edu/jsr308/specification/java-annotation-design.html
 
 //para compilar, javac do checker-framework/checkers
-//./javac -processor checkers.nullness.NullnessChecker src/TypeAnnotations.java -d bin
+//./bin/javac -processor checkers.nullness.NullnessChecker src/TypeAnnotations.java -d classes
 
 //para executar como java
 //java TypeAnnotations
