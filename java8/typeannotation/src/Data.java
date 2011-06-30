@@ -1,6 +1,6 @@
 import checkers.igj.quals.*;
 
-//./javac -processor checkers.nullness.NullnessChecker,checkers.igj.IGJChecker src/Data.java -d bin
+//./bin/javac -processor checkers.igj.IGJChecker -d classes src/Data.java 
 @Immutable class Data {
     int time; 
 
