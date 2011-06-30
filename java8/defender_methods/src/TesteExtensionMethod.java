@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.reflect.*;
 
 //	./bin/javac -d classes src/TesteDefenderMethod.java 
-//	./bin/java -cp src TesteDefenderMethod ????
+//	./bin/java -cp src TesteDefenderMethod 
 
 interface Filtro {
 	boolean filter(int a) default TesteDefenderMethod.setFilter;	

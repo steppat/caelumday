@@ -14,10 +14,6 @@ public class TesteClosure {
 		JButton button = new JButton("test");
 		button.addActionListener(#{ActionEvent event -> System.out.println("ftw")});
 
-
-		Runnable r = #{System.out.println("Caelum")};
-		new Thread(r).start();
-
 		
 		Comparator<Pessoa> comp = 
 			#{ Pessoa pessoa, Pessoa outra -> 
@@ -26,8 +22,8 @@ public class TesteClosure {
 
 
 		List<Pessoa> pessoas = Arrays.asList(new Pessoa(21), new Pessoa(20)) ;				
-		Collections.sort(pessoas, comp);//no futuro pessoas.sortBy(comp);
-		Collections.sort(pessoas, #{Pessoa p , Pessoa p2 -> p.getIdade() - p2.getIdade()});
+		Collections.sort(pessoas, comp);//no futuro mais OO: pessoas.sortBy(comp);
+
 		System.out.println(pessoas);
 	}
 }
