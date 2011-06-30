@@ -4,7 +4,7 @@ public class E_PreciseRethrow {
 
     public static void main(String[] args) {  
          
-        //mostra a compilacao com Java6
+        //nao compila com java6
         try {
             throw new RuntimeException("nao foi");
         } catch(Exception e) {

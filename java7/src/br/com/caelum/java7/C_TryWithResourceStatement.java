@@ -11,8 +11,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.concurrent.atomic.AtomicReference;
 
-//http://www.vineetmanohar.com/2011/03/java-7-try-with-auto-closable-resources/ 
-//http://cr.openjdk.java.net/~darcy/ProjectCoin/ProjectCoin-Documentation-v0.9375.html#try_with_resources
+
 public class C_TryWithResourceStatement {
 
     public static void main(String[] args) {
@@ -35,7 +34,7 @@ public class C_TryWithResourceStatement {
         }
         
         
-        //Java7 AutoCloseable
+        //Java7 com AutoCloseable
         try(Connection con = DriverManager.getConnection("jdbc:mysql://localhost/db")){
             System.out.println("usa a conexao");
         } catch (SQLException ex) {

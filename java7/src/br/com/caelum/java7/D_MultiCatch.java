@@ -9,7 +9,6 @@ public class D_MultiCatch {
 
     public static void main(String[] args) {
               
-        //Java7 MultiCatch - refactore
         try (InputStream is =  new FileInputStream("teste.txt")){
             //is.read();
         }catch(FileNotFoundException e) {

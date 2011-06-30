@@ -9,8 +9,6 @@ public class B_OperadorDiamond {
 
     public static void main(String[] args) {
 
-        //http://stackoverflow.com/questions/4166966/what-is-the-point-of-the-diamond-operator-in-java-7
-        
         //pre Java7
         Map<String, Object> mapa = new HashMap<String, Object>();
         List<Map<String,Object>> lista = new ArrayList<Map<String, Object>>();
