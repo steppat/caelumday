@@ -12,14 +12,14 @@ public class TypeAnnotations {
 
 	public static void main(String ... args) {
 
-	    @NonNull String valor = "null"; //compile error
+	    @NonNull String valor = null; //compile error
 	    @NonNull String outro = "Tambem nao nulo";
 
 	    List<@NonNull ?> g; //ok
 	    List<@NonNull String> lista = new LinkedList<@NonNull String>();
 	    lista.add(valor);
 	    lista.add(outro);
-	    lista.add("null"); //compile error
+	    lista.add(null); //compile error
 
 	    @NonNull String segundo = lista.get(1);
   	}

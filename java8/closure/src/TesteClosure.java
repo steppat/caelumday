@@ -12,7 +12,12 @@ public class TesteClosure {
 	public static void main(String[] args) {
 
 		JButton button = new JButton("test");
-		button.addActionListener(#{ActionEvent event -> System.out.println("ftw")});
+		button.addActionListener(new ActionListener(){
+
+			public void actionPerformed(ActionEvent event){
+				System.out.println("ftw");
+			}
+		});
 
 		
 		Comparator<Pessoa> comp = 
@@ -22,7 +27,7 @@ public class TesteClosure {
 
 
 		List<Pessoa> pessoas = Arrays.asList(new Pessoa(21), new Pessoa(20)) ;				
-		Collections.sort(pessoas, comp);//no futuro mais OO: pessoas.sortBy(comp);
+		Collections.sort(pessoas, comp); //no futuro mais OO: pessoas.sortBy(comp);
 
 		System.out.println(pessoas);
 	}
